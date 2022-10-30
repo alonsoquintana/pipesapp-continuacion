@@ -13,7 +13,9 @@ export class MayusculasPipe implements PipeTransform  {
         //  return valor.toLocaleLowerCase();
         //}
 
-        return ( enMayusculas ) ? valor.toUpperCase():valor.toLocaleLowerCase();
+        return ( enMayusculas ) 
+            ? valor.toUpperCase()
+            : valor.toLocaleLowerCase();
     }
 
 
